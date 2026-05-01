@@ -1,0 +1,13 @@
+# Ignore system files
+snap/
+.mozilla/
+*.sqlite
+*.log
+__pycache__/
+*.pyc
+
+# Virtual env
+ryu-env/
+
+# OS files
+.DS_Store
