@@ -1,11 +1,11 @@
 # SDN-Based Access Control System (Project 11)
 
-## 📌 Problem Statement
+##  Problem Statement
 Implement an SDN controller that allows only authorized hosts to communicate within the network. Unauthorized hosts must be blocked using OpenFlow rules.
 
 ---
 
-## 🎯 Objective
+##  Objective
 - Implement access control using Ryu controller
 - Use MAC-based filtering (whitelist)
 - Dynamically install flow rules
@@ -13,7 +13,7 @@ Implement an SDN controller that allows only authorized hosts to communicate wit
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Mininet (Network Simulation)
 - Ryu Controller (SDN Controller)
 - OpenFlow 1.3
@@ -21,7 +21,7 @@ Implement an SDN controller that allows only authorized hosts to communicate wit
 
 ---
 
-## 🌐 Network Topology
+##  Network Topology
 - Single switch topology (s1)
 - Hosts:
   - h1 → Allowed
@@ -30,7 +30,7 @@ Implement an SDN controller that allows only authorized hosts to communicate wit
 
 ---
 
-## ⚙️ Controller Logic
+##  Controller Logic
 
 ### 1. Table-Miss Flow
 - Sends unknown packets to controller
@@ -52,7 +52,7 @@ Implement an SDN controller that allows only authorized hosts to communicate wit
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### Terminal 1 (Controller)
 ```bash
